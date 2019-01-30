@@ -2,15 +2,15 @@
 # coding=UTF-8
 #
 # bc_to_as.py
-# 
-# This code is distributed under the terms of the GNU General Public 
-# License, Version 3. See the text file "COPYING" for further details 
+#
+# This code is distributed under the terms of the GNU General Public
+# License, Version 3. See the text file "COPYING" for further details
 # about the terms of this license.
 #
 # This python script prepares metadata produced by the Brunnhilde tool
 # for import into ArchivesSpace, and uses the ArchivesSpace API to perform
 # the import.
-# 
+#
 
 from pathlib import Path
 import getpass
@@ -199,6 +199,21 @@ def get_repository_uri(repo_code, session_id, host):
             repository_uri = repository['uri']
     return repository_uri
 
+def extract_start_time_from_XML(file):
+    """
+    Extract the start_time from the dfxml file.
+    Args:
+        file: the name of the dfxml
+    Returns:
+        type: return the start_time (string)
+    """
+    import xml.etree.ElementTree as ET
+    import csv
+    tree = ET.parse(file)
+    root = tree.getroot()
+    for creator in root.findall("creator"):
+        for execution_environment in creator.findall("execution_environment"):
+            return(execution_environment[8].text)
 
 if sys.version_info[0] < 3:
     host = raw_input('ASpace backend URL: ')
