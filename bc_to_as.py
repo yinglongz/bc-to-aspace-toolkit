@@ -203,7 +203,7 @@ def extract_start_time_from_XML(file):
     """
     Extract the start_time from the dfxml file.
     Args:
-        file: the name of the dfxml
+        file: the dfxml name
     Returns:
         type: return the start_time (string)
     """
@@ -214,6 +214,19 @@ def extract_start_time_from_XML(file):
     for creator in root.findall("creator"):
         for execution_environment in creator.findall("execution_environment"):
             return(execution_environment[8].text)
+
+def XML_to_Dict(file):
+"""
+convert XML to dict.
+Args:
+    file: the dfxml name
+Returns:
+    type: dict format of the dfxml file
+"""
+    import xmltodict
+    with open(file) as file:
+        file_data = xmltodict.parse(file.read())
+    return file_data
 
 if sys.version_info[0] < 3:
     host = raw_input('ASpace backend URL: ')
