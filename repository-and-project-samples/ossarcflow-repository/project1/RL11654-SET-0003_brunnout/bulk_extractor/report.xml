@@ -1,0 +1,1926 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/bulk_extractor/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>BULK_EXTRACTOR</program>
+    <version>1.6.0-dev</version>
+    <build_environment>
+      <compiler>7.3.0 (7.3.0)</compiler>
+      <CPPFLAGS> -I/usr/local/include -DUTC_OFFSET=+0000 -I/usr/local/include</CPPFLAGS>
+      <CFLAGS>-g     -pthread -g -O3 -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -fPIC   -D_FORTIFY_SOURCE=2 </CFLAGS>
+      <CXXFLAGS>-g -pthread -g -O3 -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++  -fPIC -D_FORTIFY_SOURCE=2 </CXXFLAGS>
+      <LDFLAGS> -L/usr/local/lib -L/usr/local/lib</LDFLAGS>
+      <LIBS>-lewf -lafflib -ltre -lstdc++ -lexpat -lz -ldl  -lsqlite3 -lcrypto  -llightgrep</LIBS>
+      <compilation_date>2018-12-29T23:50:05</compilation_date>
+      <library name="afflib" version="3.7.17"/>
+      <library name="libewf" version="20140608"/>
+      <library name="tre" version="TRE 0.8.0 (BSD)"/>
+      <library name="sqlite" version="3.22.0" source_id="2018-01-22 18:45:57 0c55d179733b46d8d0ba4d88e01a25e10677046ee3da1d5b1581e86726f2alt1"/>
+      <git commit="v1.5.0-184-g215ed3f-dirty"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>4.15.0-43-generic</os_release>
+      <os_version>#46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018</os_version>
+      <host>ubuntu</host>
+      <arch>x86_64</arch>
+      <command_line>bulk_extractor -S ssn_mode=1 -o /home/bcadmin/brunnhilde-reports/bulk_extractor -R /home/bcadmin/brunnhilde-reports/carved_files</command_line>
+      <uid>1000</uid>
+      <username>bcadmin</username>
+      <start_time>2019-02-08T16:42:12Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+    <threads>2</threads>
+    <pagesize>16777216</pagesize>
+    <marginsize>4194304</marginsize>
+    <scanners>
+      <scanner>base64</scanner>
+      <scanner>kml</scanner>
+      <scanner>httplogs</scanner>
+      <scanner>net</scanner>
+      <scanner>find</scanner>
+      <scanner>aes</scanner>
+      <scanner>json</scanner>
+      <scanner>accts</scanner>
+      <scanner>email</scanner>
+      <scanner>gps</scanner>
+      <scanner>accts_lg</scanner>
+      <scanner>base16_lg</scanner>
+      <scanner>email_lg</scanner>
+      <scanner>gps_lg</scanner>
+      <scanner>lightgrep</scanner>
+      <scanner>elf</scanner>
+      <scanner>exif</scanner>
+      <scanner>zip</scanner>
+      <scanner>rar</scanner>
+      <scanner>gzip</scanner>
+      <scanner>ntfsusn</scanner>
+      <scanner>pdf</scanner>
+      <scanner>msxml</scanner>
+      <scanner>winpe</scanner>
+      <scanner>hiberfile</scanner>
+      <scanner>winlnk</scanner>
+      <scanner>winprefetch</scanner>
+      <scanner>windirs</scanner>
+      <scanner>vcard</scanner>
+      <scanner>sqlite</scanner>
+    </scanners>
+  </configuration>
+  <provided_filename>/home/bcadmin/brunnhilde-reports/carved_files</provided_filename>
+  <timestamp name='phase1 start' delta='0.001332' total='0.001332'/>
+  <runtime xmlns:debug="http://www.github.com/simsong/bulk_extractor/issues">
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/xls_within_doc.doc􀀜-0' pagesize='36352' bufsize='36352'/>
+    <debug:work_start threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document2.pdf􀀜-0' pagesize='8672' bufsize='8672'/>
+    <debug:work_end threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document2.pdf􀀜-0' time='0.018394'/>
+    <debug:work_start threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/testfile_pdf.pdf􀀜-0' pagesize='22587' bufsize='22587'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/xls_within_doc.doc􀀜-0' time='0.028268'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/myfilegzip2.txt.gz.0.gz􀀜-0' pagesize='104' bufsize='104'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/myfilegzip2.txt.gz.0.gz􀀜-0' time='0.000664'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/ppt_within_doc.doc􀀜-0' pagesize='69120' bufsize='69120'/>
+    <debug:work_end threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/testfile_pdf.pdf􀀜-0' time='0.016109'/>
+    <debug:work_start threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-0' pagesize='85880' bufsize='85880'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/ppt_within_doc.doc􀀜-0' time='0.08347'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/iwork_09.pages􀀜-0' pagesize='39367' bufsize='39367'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/iwork_09.pages􀀜-0' time='0.177148'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/myfile.zip􀀜-0' pagesize='225' bufsize='225'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/myfile.zip􀀜-0' time='0.000573'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/Makefile􀀜-0' pagesize='509' bufsize='509'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/Makefile􀀜-0' time='0.000636'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/._.Trashes􀀜-0' pagesize='4096' bufsize='4096'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/._.Trashes􀀜-0' time='0.002237'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/.fseventsd/fseventsd-uuid􀀜-0' pagesize='36' bufsize='36'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/.fseventsd/fseventsd-uuid􀀜-0' time='0.000197'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/.fseventsd/636573a9bdc4f9e3􀀜-0' pagesize='179' bufsize='179'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/.fseventsd/636573a9bdc4f9e3􀀜-0' time='0.028769'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/testfilex.pdf􀀜-0' pagesize='23464' bufsize='23464'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/testfilex.pdf􀀜-0' time='0.004631'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/.Trashes/._501􀀜-0' pagesize='4096' bufsize='4096'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/.Trashes/._501􀀜-0' time='0.004817'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document2.rtf􀀜-0' pagesize='335' bufsize='335'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document2.rtf􀀜-0' time='0.000409'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/testfile.doc􀀜-0' pagesize='26112' bufsize='26112'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/testfile.doc􀀜-0' time='0.014773'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-0' pagesize='39027' bufsize='39027'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-0' time='0.120867'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/testfilex.docx􀀜-0' pagesize='27254' bufsize='27254'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/testfilex.docx􀀜-0' time='0.03313'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document3.txt􀀜-0' pagesize='52' bufsize='52'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document3.txt􀀜-0' time='0.000184'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document1.txt􀀜-0' pagesize='24' bufsize='24'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document1.txt􀀜-0' time='0.000217'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/myfilegzip.txt.gz􀀜-0' pagesize='59' bufsize='59'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/myfilegzip.txt.gz􀀜-0' time='0.000234'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document1.pdf􀀜-0' pagesize='9485' bufsize='9485'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document1.pdf􀀜-0' time='0.002819'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/docx_within_docx.docx􀀜-0' pagesize='19105' bufsize='19105'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/docx_within_docx.docx􀀜-0' time='0.059421'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/workbook1.xls􀀜-0' pagesize='19968' bufsize='19968'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/workbook1.xls􀀜-0' time='0.011516'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document3.pdf􀀜-0' pagesize='10091' bufsize='10091'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/document3.pdf􀀜-0' time='0.004827'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/xlsx_within_docx.docx􀀜-0' pagesize='17528' bufsize='17528'/>
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/xlsx_within_docx.docx􀀜-0' time='0.084237'/>
+    <debug:work_start threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-0' pagesize='228590' bufsize='228590'/>
+    <debug:work_end threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-0' time='0.72266'/>
+    <debug:work_start threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/doc_within_doc.doc􀀜-0' pagesize='38912' bufsize='38912'/>
+    <debug:work_end threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/doc_within_doc.doc􀀜-0' time='0.013012'/>
+    <debug:work_start threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/myfile22.zip􀀜-0' pagesize='372' bufsize='372'/>
+    <debug:work_end threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/myfile22.zip􀀜-0' time='0.000967'/>
+    <debug:work_start threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/workbook2.xlsx􀀜-0' pagesize='42595' bufsize='42595'/>
+    <debug:work_end threadid='1' pos0='/home/bcadmin/brunnhilde-reports/carved_files/workbook2.xlsx􀀜-0' time='0.048858'/>
+<!-- Time elapsed waiting for 2 threads to finish:
+     (timeout in 60 min.)
+ -->
+    <debug:work_end threadid='0' pos0='/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-0' time='0.605896'/>
+  </runtime>
+  <source>
+    <image_filename>/home/bcadmin/brunnhilde-reports/carved_files</image_filename>
+    <image_size>30</image_size>
+  </source>
+  <feature_files>
+    <feature_file><name>aes_keys</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>alerts</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>ccn</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>ccn_track2</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>domain</name>
+<count>991</count>
+</feature_file>
+
+    <feature_file><name>elf</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>email</name>
+<count>147</count>
+</feature_file>
+
+    <feature_file><name>ether</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>exif</name>
+<count>20</count>
+</feature_file>
+
+    <feature_file><name>find</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>gps</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>hex</name>
+<count>89</count>
+</feature_file>
+
+    <feature_file><name>httplogs</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>ip</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>jpeg_carved</name>
+<count>21</count>
+</feature_file>
+
+    <feature_file><name>json</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>kml</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>lightgrep</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>ntfsusn_carved</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>pii</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>rar</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>rfc822</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>sqlite_carved</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>telephone</name>
+<count>2</count>
+</feature_file>
+
+    <feature_file><name>unrar_carved</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>unzip_carved</name>
+<count>207</count>
+</feature_file>
+
+    <feature_file><name>url</name>
+<count>844</count>
+</feature_file>
+
+    <feature_file><name>vcard</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>windirs</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>winlnk</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>winpe</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>winpe_carved</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>winprefetch</name>
+<count>0</count>
+</feature_file>
+
+    <feature_file><name>zip</name>
+<count>240</count>
+</feature_file>
+
+    <thread_wait thread='0'>0.773842</thread_wait>
+    <thread_wait thread='0'>4e-06</thread_wait>
+    <thread_wait thread='1'>0.006636</thread_wait>
+  </feature_files>
+  <timestamp name='phase1 end' delta='1.282871' total='1.284205'/>
+  <timestamp name='phase2 (shutdown) start' delta='0.000005' total='1.284211'/>
+  <timestamp name='phase2 (shutdown) end' delta='0.000022' total='1.284233'/>
+  <timestamp name='phase3 (histograms) start' delta='0.000004' total='1.284237'/>
+  <timestamp name='phase3 (histograms) end' delta='0.008263' total='1.292500'/>
+  <report>
+    <total_bytes>774196</total_bytes>
+    <elapsed_seconds>1.518164</elapsed_seconds>
+    <max_depth_seen>3</max_depth_seen>
+    <dup_data_encountered>0</dup_data_encountered>
+  </report>
+  <scanner_times>
+    <path><name>ACCTS</name>
+<calls>27</calls>
+<seconds>0.038686</seconds>
+</path>
+
+    <path><name>ACCTS_LG</name>
+<calls>27</calls>
+<seconds>0.000011</seconds>
+</path>
+
+    <path><name>AES</name>
+<calls>27</calls>
+<seconds>0.034763</seconds>
+</path>
+
+    <path><name>BASE16_LG</name>
+<calls>27</calls>
+<seconds>0.000008</seconds>
+</path>
+
+    <path><name>BASE64</name>
+<calls>27</calls>
+<seconds>0.001529</seconds>
+</path>
+
+    <path><name>ELF</name>
+<calls>27</calls>
+<seconds>0.001053</seconds>
+</path>
+
+    <path><name>EMAIL</name>
+<calls>27</calls>
+<seconds>0.074774</seconds>
+</path>
+
+    <path><name>EMAIL_LG</name>
+<calls>27</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>EXIF</name>
+<calls>27</calls>
+<seconds>0.006943</seconds>
+</path>
+
+    <path><name>FIND</name>
+<calls>27</calls>
+<seconds>0.004570</seconds>
+</path>
+
+    <path><name>GPS</name>
+<calls>27</calls>
+<seconds>0.000597</seconds>
+</path>
+
+    <path><name>GPS_LG</name>
+<calls>27</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>GZIP</name>
+<calls>27</calls>
+<seconds>0.031744</seconds>
+</path>
+
+    <path><name>GZIP-ACCTS</name>
+<calls>3</calls>
+<seconds>0.003631</seconds>
+</path>
+
+    <path><name>GZIP-ACCTS_LG</name>
+<calls>3</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-AES</name>
+<calls>3</calls>
+<seconds>0.002240</seconds>
+</path>
+
+    <path><name>GZIP-BASE16_LG</name>
+<calls>3</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-BASE64</name>
+<calls>3</calls>
+<seconds>0.000117</seconds>
+</path>
+
+    <path><name>GZIP-ELF</name>
+<calls>3</calls>
+<seconds>0.000057</seconds>
+</path>
+
+    <path><name>GZIP-EMAIL</name>
+<calls>3</calls>
+<seconds>0.007335</seconds>
+</path>
+
+    <path><name>GZIP-EMAIL_LG</name>
+<calls>3</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-EXIF</name>
+<calls>3</calls>
+<seconds>0.000132</seconds>
+</path>
+
+    <path><name>GZIP-FIND</name>
+<calls>3</calls>
+<seconds>0.001084</seconds>
+</path>
+
+    <path><name>GZIP-GPS</name>
+<calls>3</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>GZIP-GPS_LG</name>
+<calls>3</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP</name>
+<calls>3</calls>
+<seconds>0.000382</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-ACCTS</name>
+<calls>1</calls>
+<seconds>0.000119</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-ACCTS_LG</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-AES</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-BASE16_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-BASE64</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-ELF</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-EMAIL</name>
+<calls>1</calls>
+<seconds>0.000023</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-EMAIL_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-EXIF</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-FIND</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-GPS</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-GPS_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-GZIP</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-HIBERFILE</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-HTTPLOGS</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-JSON</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-KML</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-LIGHTGREP</name>
+<calls>1</calls>
+<seconds>0.000025</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-MSXML</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-NET</name>
+<calls>1</calls>
+<seconds>0.000005</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-NTFSUSN</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-PDF</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-RAR</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-SQLITE</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-VCARD</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-WINLNK</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-WINPE</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-WINPREFETCH</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>GZIP-GZIP-ZIP</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-HIBERFILE</name>
+<calls>3</calls>
+<seconds>0.000448</seconds>
+</path>
+
+    <path><name>GZIP-HTTPLOGS</name>
+<calls>3</calls>
+<seconds>0.000374</seconds>
+</path>
+
+    <path><name>GZIP-JSON</name>
+<calls>3</calls>
+<seconds>0.000052</seconds>
+</path>
+
+    <path><name>GZIP-KML</name>
+<calls>3</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>GZIP-LIGHTGREP</name>
+<calls>3</calls>
+<seconds>0.001226</seconds>
+</path>
+
+    <path><name>GZIP-MSXML</name>
+<calls>3</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-NET</name>
+<calls>3</calls>
+<seconds>0.010737</seconds>
+</path>
+
+    <path><name>GZIP-NTFSUSN</name>
+<calls>3</calls>
+<seconds>0.000037</seconds>
+</path>
+
+    <path><name>GZIP-PDF</name>
+<calls>3</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>GZIP-RAR</name>
+<calls>3</calls>
+<seconds>0.000187</seconds>
+</path>
+
+    <path><name>GZIP-SQLITE</name>
+<calls>3</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-VCARD</name>
+<calls>3</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>GZIP-WINLNK</name>
+<calls>3</calls>
+<seconds>0.000090</seconds>
+</path>
+
+    <path><name>GZIP-WINPE</name>
+<calls>3</calls>
+<seconds>0.000233</seconds>
+</path>
+
+    <path><name>GZIP-WINPREFETCH</name>
+<calls>3</calls>
+<seconds>0.000063</seconds>
+</path>
+
+    <path><name>GZIP-ZIP</name>
+<calls>3</calls>
+<seconds>0.000091</seconds>
+</path>
+
+    <path><name>HIBERFILE</name>
+<calls>27</calls>
+<seconds>0.000768</seconds>
+</path>
+
+    <path><name>HTTPLOGS</name>
+<calls>27</calls>
+<seconds>0.009277</seconds>
+</path>
+
+    <path><name>JSON</name>
+<calls>27</calls>
+<seconds>0.001099</seconds>
+</path>
+
+    <path><name>KML</name>
+<calls>27</calls>
+<seconds>0.000777</seconds>
+</path>
+
+    <path><name>LIGHTGREP</name>
+<calls>27</calls>
+<seconds>0.023088</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-ACCTS</name>
+<calls>1</calls>
+<seconds>0.000024</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-ACCTS_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-AES</name>
+<calls>1</calls>
+<seconds>0.000067</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-BASE16_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-BASE64</name>
+<calls>1</calls>
+<seconds>0.000064</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-ELF</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-EMAIL</name>
+<calls>1</calls>
+<seconds>0.000040</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-EMAIL_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-EXIF</name>
+<calls>1</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-FIND</name>
+<calls>1</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-GPS</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-GPS_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-GZIP</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-HIBERFILE</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-HTTPLOGS</name>
+<calls>1</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-JSON</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-KML</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-LIGHTGREP</name>
+<calls>1</calls>
+<seconds>0.000115</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-MSXML</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-NET</name>
+<calls>1</calls>
+<seconds>0.000053</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-NTFSUSN</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-PDF</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-RAR</name>
+<calls>1</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-SQLITE</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-VCARD</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-WINDIRS</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-WINLNK</name>
+<calls>1</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-WINPE</name>
+<calls>1</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-WINPREFETCH</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>MAKEFILE􀀜-ZIP</name>
+<calls>1</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>MSXML</name>
+<calls>27</calls>
+<seconds>0.000021</seconds>
+</path>
+
+    <path><name>NET</name>
+<calls>27</calls>
+<seconds>0.170206</seconds>
+</path>
+
+    <path><name>NTFSUSN</name>
+<calls>27</calls>
+<seconds>0.000965</seconds>
+</path>
+
+    <path><name>PDF</name>
+<calls>27</calls>
+<seconds>0.011777</seconds>
+</path>
+
+    <path><name>PDF-ACCTS</name>
+<calls>6</calls>
+<seconds>0.000079</seconds>
+</path>
+
+    <path><name>PDF-ACCTS_LG</name>
+<calls>6</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>PDF-AES</name>
+<calls>6</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>PDF-BASE16_LG</name>
+<calls>6</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>PDF-BASE64</name>
+<calls>6</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>PDF-ELF</name>
+<calls>6</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>PDF-EMAIL</name>
+<calls>6</calls>
+<seconds>0.000396</seconds>
+</path>
+
+    <path><name>PDF-EMAIL_LG</name>
+<calls>6</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>PDF-EXIF</name>
+<calls>6</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>PDF-FIND</name>
+<calls>6</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>PDF-GPS</name>
+<calls>6</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>PDF-GPS_LG</name>
+<calls>6</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>PDF-GZIP</name>
+<calls>6</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>PDF-HIBERFILE</name>
+<calls>6</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>PDF-HTTPLOGS</name>
+<calls>6</calls>
+<seconds>0.000005</seconds>
+</path>
+
+    <path><name>PDF-JSON</name>
+<calls>6</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>PDF-KML</name>
+<calls>6</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>PDF-LIGHTGREP</name>
+<calls>6</calls>
+<seconds>0.000195</seconds>
+</path>
+
+    <path><name>PDF-MSXML</name>
+<calls>6</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>PDF-NET</name>
+<calls>6</calls>
+<seconds>0.000042</seconds>
+</path>
+
+    <path><name>PDF-NTFSUSN</name>
+<calls>6</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>PDF-PDF</name>
+<calls>6</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>PDF-RAR</name>
+<calls>6</calls>
+<seconds>0.000005</seconds>
+</path>
+
+    <path><name>PDF-SQLITE</name>
+<calls>6</calls>
+<seconds>0.000005</seconds>
+</path>
+
+    <path><name>PDF-VCARD</name>
+<calls>6</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>PDF-WINLNK</name>
+<calls>6</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>PDF-WINPE</name>
+<calls>6</calls>
+<seconds>0.000005</seconds>
+</path>
+
+    <path><name>PDF-WINPREFETCH</name>
+<calls>6</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>PDF-ZIP</name>
+<calls>6</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>RAR</name>
+<calls>27</calls>
+<seconds>0.003624</seconds>
+</path>
+
+    <path><name>SQLITE</name>
+<calls>27</calls>
+<seconds>0.000082</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-ACCTS</name>
+<calls>1</calls>
+<seconds>0.000258</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-ACCTS_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-AES</name>
+<calls>1</calls>
+<seconds>0.000156</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-BASE16_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-BASE64</name>
+<calls>1</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-ELF</name>
+<calls>1</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-EMAIL</name>
+<calls>1</calls>
+<seconds>0.000248</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-EMAIL_LG</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-EXIF</name>
+<calls>1</calls>
+<seconds>0.000008</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-FIND</name>
+<calls>1</calls>
+<seconds>0.000063</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-GPS</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-GPS_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-GZIP</name>
+<calls>1</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-HIBERFILE</name>
+<calls>1</calls>
+<seconds>0.000005</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-HTTPLOGS</name>
+<calls>1</calls>
+<seconds>0.000011</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-JSON</name>
+<calls>1</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-KML</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-LIGHTGREP</name>
+<calls>1</calls>
+<seconds>0.000051</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-MSXML</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-NET</name>
+<calls>1</calls>
+<seconds>0.000613</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-NTFSUSN</name>
+<calls>1</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-PDF</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-RAR</name>
+<calls>1</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-SQLITE</name>
+<calls>1</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-VCARD</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-WINDIRS</name>
+<calls>1</calls>
+<seconds>0.000007</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-WINLNK</name>
+<calls>1</calls>
+<seconds>0.000010</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-WINPE</name>
+<calls>1</calls>
+<seconds>0.003259</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-WINPREFETCH</name>
+<calls>1</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>TRASHES/._501􀀜-ZIP</name>
+<calls>1</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-ACCTS</name>
+<calls>1</calls>
+<seconds>0.000703</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-ACCTS_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-AES</name>
+<calls>1</calls>
+<seconds>0.000159</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-BASE16_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-BASE64</name>
+<calls>1</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-ELF</name>
+<calls>1</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-EMAIL</name>
+<calls>1</calls>
+<seconds>0.000413</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-EMAIL_LG</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-EXIF</name>
+<calls>1</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-FIND</name>
+<calls>1</calls>
+<seconds>0.000108</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-GPS</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-GPS_LG</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-GZIP</name>
+<calls>1</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-HIBERFILE</name>
+<calls>1</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-HTTPLOGS</name>
+<calls>1</calls>
+<seconds>0.000044</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-JSON</name>
+<calls>1</calls>
+<seconds>0.000005</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-KML</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-LIGHTGREP</name>
+<calls>1</calls>
+<seconds>0.000128</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-MSXML</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-NET</name>
+<calls>1</calls>
+<seconds>0.000523</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-NTFSUSN</name>
+<calls>1</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-PDF</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-RAR</name>
+<calls>1</calls>
+<seconds>0.000012</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-SQLITE</name>
+<calls>1</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-VCARD</name>
+<calls>1</calls>
+<seconds>0.000000</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-WINDIRS</name>
+<calls>1</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-WINLNK</name>
+<calls>1</calls>
+<seconds>0.000010</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-WINPE</name>
+<calls>1</calls>
+<seconds>0.000014</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-WINPREFETCH</name>
+<calls>1</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>TRASHES􀀜-ZIP</name>
+<calls>1</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>VCARD</name>
+<calls>27</calls>
+<seconds>0.000127</seconds>
+</path>
+
+    <path><name>WINDIRS</name>
+<calls>27</calls>
+<seconds>0.001680</seconds>
+</path>
+
+    <path><name>WINLNK</name>
+<calls>27</calls>
+<seconds>0.002090</seconds>
+</path>
+
+    <path><name>WINPE</name>
+<calls>27</calls>
+<seconds>0.003149</seconds>
+</path>
+
+    <path><name>WINPREFETCH</name>
+<calls>27</calls>
+<seconds>0.001617</seconds>
+</path>
+
+    <path><name>ZIP</name>
+<calls>27</calls>
+<seconds>1.643913</seconds>
+</path>
+
+    <path><name>ZIP-ACCTS</name>
+<calls>96</calls>
+<seconds>0.152719</seconds>
+</path>
+
+    <path><name>ZIP-ACCTS_LG</name>
+<calls>96</calls>
+<seconds>0.000029</seconds>
+</path>
+
+    <path><name>ZIP-AES</name>
+<calls>96</calls>
+<seconds>0.118667</seconds>
+</path>
+
+    <path><name>ZIP-BASE16_LG</name>
+<calls>96</calls>
+<seconds>0.000023</seconds>
+</path>
+
+    <path><name>ZIP-BASE64</name>
+<calls>96</calls>
+<seconds>0.006347</seconds>
+</path>
+
+    <path><name>ZIP-ELF</name>
+<calls>96</calls>
+<seconds>0.002887</seconds>
+</path>
+
+    <path><name>ZIP-EMAIL</name>
+<calls>96</calls>
+<seconds>0.315795</seconds>
+</path>
+
+    <path><name>ZIP-EMAIL_LG</name>
+<calls>96</calls>
+<seconds>0.000015</seconds>
+</path>
+
+    <path><name>ZIP-EXIF</name>
+<calls>96</calls>
+<seconds>0.010002</seconds>
+</path>
+
+    <path><name>ZIP-FIND</name>
+<calls>96</calls>
+<seconds>0.003597</seconds>
+</path>
+
+    <path><name>ZIP-GPS</name>
+<calls>96</calls>
+<seconds>0.003067</seconds>
+</path>
+
+    <path><name>ZIP-GPS_LG</name>
+<calls>96</calls>
+<seconds>0.000018</seconds>
+</path>
+
+    <path><name>ZIP-GZIP</name>
+<calls>96</calls>
+<seconds>0.002139</seconds>
+</path>
+
+    <path><name>ZIP-HIBERFILE</name>
+<calls>96</calls>
+<seconds>0.003715</seconds>
+</path>
+
+    <path><name>ZIP-HTTPLOGS</name>
+<calls>96</calls>
+<seconds>0.036284</seconds>
+</path>
+
+    <path><name>ZIP-JSON</name>
+<calls>96</calls>
+<seconds>0.004188</seconds>
+</path>
+
+    <path><name>ZIP-KML</name>
+<calls>96</calls>
+<seconds>0.002085</seconds>
+</path>
+
+    <path><name>ZIP-LIGHTGREP</name>
+<calls>96</calls>
+<seconds>0.292001</seconds>
+</path>
+
+    <path><name>ZIP-MSXML</name>
+<calls>96</calls>
+<seconds>0.017841</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-ACCTS</name>
+<calls>24</calls>
+<seconds>0.000441</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-ACCTS_LG</name>
+<calls>24</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-AES</name>
+<calls>24</calls>
+<seconds>0.000099</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-BASE16_LG</name>
+<calls>24</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-BASE64</name>
+<calls>24</calls>
+<seconds>0.000016</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-ELF</name>
+<calls>24</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-EMAIL</name>
+<calls>24</calls>
+<seconds>0.001130</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-EMAIL_LG</name>
+<calls>24</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-EXIF</name>
+<calls>24</calls>
+<seconds>0.000025</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-FIND</name>
+<calls>24</calls>
+<seconds>0.000028</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-GPS</name>
+<calls>24</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-GPS_LG</name>
+<calls>24</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-GZIP</name>
+<calls>24</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-HIBERFILE</name>
+<calls>24</calls>
+<seconds>0.000010</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-HTTPLOGS</name>
+<calls>24</calls>
+<seconds>0.000145</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-JSON</name>
+<calls>24</calls>
+<seconds>0.000014</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-KML</name>
+<calls>24</calls>
+<seconds>0.000014</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-LIGHTGREP</name>
+<calls>24</calls>
+<seconds>0.000884</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-MSXML</name>
+<calls>24</calls>
+<seconds>0.000002</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-NET</name>
+<calls>24</calls>
+<seconds>0.001260</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-NTFSUSN</name>
+<calls>24</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-PDF</name>
+<calls>24</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-RAR</name>
+<calls>24</calls>
+<seconds>0.000041</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-SQLITE</name>
+<calls>24</calls>
+<seconds>0.000012</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-VCARD</name>
+<calls>24</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-WINLNK</name>
+<calls>24</calls>
+<seconds>0.000015</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-WINPE</name>
+<calls>24</calls>
+<seconds>0.000023</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-WINPREFETCH</name>
+<calls>24</calls>
+<seconds>0.000020</seconds>
+</path>
+
+    <path><name>ZIP-MSXML-ZIP</name>
+<calls>24</calls>
+<seconds>0.000020</seconds>
+</path>
+
+    <path><name>ZIP-NET</name>
+<calls>96</calls>
+<seconds>0.438320</seconds>
+</path>
+
+    <path><name>ZIP-NTFSUSN</name>
+<calls>96</calls>
+<seconds>0.001347</seconds>
+</path>
+
+    <path><name>ZIP-PDF</name>
+<calls>96</calls>
+<seconds>0.002271</seconds>
+</path>
+
+    <path><name>ZIP-RAR</name>
+<calls>96</calls>
+<seconds>0.011098</seconds>
+</path>
+
+    <path><name>ZIP-SQLITE</name>
+<calls>96</calls>
+<seconds>0.004296</seconds>
+</path>
+
+    <path><name>ZIP-VCARD</name>
+<calls>96</calls>
+<seconds>0.000430</seconds>
+</path>
+
+    <path><name>ZIP-WINLNK</name>
+<calls>96</calls>
+<seconds>0.006682</seconds>
+</path>
+
+    <path><name>ZIP-WINPE</name>
+<calls>96</calls>
+<seconds>0.009184</seconds>
+</path>
+
+    <path><name>ZIP-WINPREFETCH</name>
+<calls>96</calls>
+<seconds>0.011027</seconds>
+</path>
+
+    <path><name>ZIP-ZIP</name>
+<calls>96</calls>
+<seconds>0.118416</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-ACCTS</name>
+<calls>43</calls>
+<seconds>0.012653</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-ACCTS_LG</name>
+<calls>43</calls>
+<seconds>0.000012</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-AES</name>
+<calls>43</calls>
+<seconds>0.005789</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-BASE16_LG</name>
+<calls>43</calls>
+<seconds>0.000007</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-BASE64</name>
+<calls>43</calls>
+<seconds>0.000117</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-ELF</name>
+<calls>43</calls>
+<seconds>0.000394</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-EMAIL</name>
+<calls>43</calls>
+<seconds>0.019284</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-EMAIL_LG</name>
+<calls>43</calls>
+<seconds>0.000007</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-EXIF</name>
+<calls>43</calls>
+<seconds>0.000248</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-FIND</name>
+<calls>43</calls>
+<seconds>0.000094</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-GPS</name>
+<calls>43</calls>
+<seconds>0.000132</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-GPS_LG</name>
+<calls>43</calls>
+<seconds>0.000008</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-GZIP</name>
+<calls>43</calls>
+<seconds>0.000207</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-HIBERFILE</name>
+<calls>43</calls>
+<seconds>0.000111</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-HTTPLOGS</name>
+<calls>43</calls>
+<seconds>0.000837</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-JSON</name>
+<calls>43</calls>
+<seconds>0.000205</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-KML</name>
+<calls>43</calls>
+<seconds>0.000089</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-LIGHTGREP</name>
+<calls>43</calls>
+<seconds>0.018796</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML</name>
+<calls>43</calls>
+<seconds>0.009074</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-ACCTS</name>
+<calls>17</calls>
+<seconds>0.000210</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-ACCTS_LG</name>
+<calls>17</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-AES</name>
+<calls>17</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-BASE16_LG</name>
+<calls>17</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-BASE64</name>
+<calls>17</calls>
+<seconds>0.000012</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-ELF</name>
+<calls>17</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-EMAIL</name>
+<calls>17</calls>
+<seconds>0.000339</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-EMAIL_LG</name>
+<calls>17</calls>
+<seconds>0.000001</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-EXIF</name>
+<calls>17</calls>
+<seconds>0.000406</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-FIND</name>
+<calls>17</calls>
+<seconds>0.000016</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-GPS</name>
+<calls>17</calls>
+<seconds>0.000008</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-GPS_LG</name>
+<calls>17</calls>
+<seconds>0.000003</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-GZIP</name>
+<calls>17</calls>
+<seconds>0.000005</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-HIBERFILE</name>
+<calls>17</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-HTTPLOGS</name>
+<calls>17</calls>
+<seconds>0.000020</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-JSON</name>
+<calls>17</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-KML</name>
+<calls>17</calls>
+<seconds>0.003087</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-LIGHTGREP</name>
+<calls>17</calls>
+<seconds>0.000309</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-MSXML</name>
+<calls>17</calls>
+<seconds>0.000007</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-NET</name>
+<calls>17</calls>
+<seconds>0.000290</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-NTFSUSN</name>
+<calls>17</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-PDF</name>
+<calls>17</calls>
+<seconds>0.000006</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-RAR</name>
+<calls>17</calls>
+<seconds>0.000031</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-SQLITE</name>
+<calls>17</calls>
+<seconds>0.000007</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-VCARD</name>
+<calls>17</calls>
+<seconds>0.000004</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-WINLNK</name>
+<calls>17</calls>
+<seconds>0.000007</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-WINPE</name>
+<calls>17</calls>
+<seconds>0.000013</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-WINPREFETCH</name>
+<calls>17</calls>
+<seconds>0.000010</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-MSXML-ZIP</name>
+<calls>17</calls>
+<seconds>0.000009</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-NET</name>
+<calls>43</calls>
+<seconds>0.028392</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-NTFSUSN</name>
+<calls>43</calls>
+<seconds>0.000073</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-PDF</name>
+<calls>43</calls>
+<seconds>0.000082</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-RAR</name>
+<calls>43</calls>
+<seconds>0.001434</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-SQLITE</name>
+<calls>43</calls>
+<seconds>0.000042</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-VCARD</name>
+<calls>43</calls>
+<seconds>0.000039</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-WINLNK</name>
+<calls>43</calls>
+<seconds>0.000323</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-WINPE</name>
+<calls>43</calls>
+<seconds>0.000342</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-WINPREFETCH</name>
+<calls>43</calls>
+<seconds>0.000187</seconds>
+</path>
+
+    <path><name>ZIP-ZIP-ZIP</name>
+<calls>43</calls>
+<seconds>0.000313</seconds>
+</path>
+
+  </scanner_times>
+  <rusage>
+    <utime>1.897545</utime>
+    <stime>0.106515</stime>
+    <maxrss>26424</maxrss>
+    <minflt>4635</minflt>
+    <majflt>51</majflt>
+    <nswap>0</nswap>
+    <inblock>10856</inblock>
+    <oublock>8632</oublock>
+    <clocktime>1.296005</clocktime>
+  </rusage>
+</dfxml>

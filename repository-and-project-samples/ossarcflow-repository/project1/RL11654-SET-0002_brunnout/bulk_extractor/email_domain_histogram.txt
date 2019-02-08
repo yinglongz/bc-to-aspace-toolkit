@@ -1,0 +1,14 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0-dev ($Rev: 10844 $)
+# Feature-Recorder: email
+# Filename: /home/bcadmin/brunnhilde-reports/carved_files
+# Histogram-File-Version: 1.1
+n=30	@iwork09.com
+n=26	@document.com
+n=14	@microsoftword.com
+n=12	@microsoft_excel.com
+n=10	@textedit.com
+n=4	@gzipfile.com
+n=2	@apple.com
+n=2	@zipfile1.com
+n=2	@zipfile2.com

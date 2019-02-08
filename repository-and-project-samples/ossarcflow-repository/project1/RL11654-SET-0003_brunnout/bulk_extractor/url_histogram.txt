@@ -1,0 +1,56 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0-dev ($Rev: 10844 $)
+# Feature-Recorder: url
+# Filename: /home/bcadmin/brunnhilde-reports/carved_files
+# Histogram-File-Version: 1.1
+n=140	http://schemas.openxmlformats.org/drawingml/2006/main
+n=102	http://schemas.openxmlformats.org/officeDocument/2006/relationships
+n=66	http://schemas.openxmlformats.org/presentationml/2006/main
+n=50	http://schemas.openxmlformats.org/package/2006/relationships
+n=34	http://schemas.openxmlformats.org/wordprocessingml/2006/main
+n=28	http://schemas.openxmlformats.org/package/2006/content-types
+n=26	http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout
+n=22	http://www.w3.org/2001/XMLSchema-instance
+n=20	http://schemas.openxmlformats.org/officeDocument/2006/math
+n=20	http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme
+n=20	http://schemas.openxmlformats.org/spreadsheetml/2006/main
+n=16	http://purl.org/dc/dcmitype/
+n=16	http://purl.org/dc/elements/1.1/
+n=16	http://purl.org/dc/terms/
+n=16	http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes
+n=16	http://schemas.openxmlformats.org/officeDocument/2006/extended-properties
+n=16	http://schemas.openxmlformats.org/package/2006/metadata/core-properties
+n=14	http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles
+n=12	http://schemas.openxmlformats.org/markup-compatibility/2006
+n=12	http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink
+n=12	http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument
+n=10	http://schemas.microsoft.com/office/word/2006/wordml
+n=10	http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing
+n=10	http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties
+n=10	http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable
+n=10	http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings
+n=10	http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings
+n=10	http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties
+n=10	http://schemas.openxmlformats.org/schemaLibrary/2006/main
+n=8	http://schemas.microsoft.com/office/mac/excel/2008/main
+n=8	http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet
+n=8	http://www.apple.com/DTDs/PropertyList-1.0.dtd
+n=6	http://developer.apple.com/namespaces/sf
+n=6	http://developer.apple.com/namespaces/sfa
+n=6	http://schemas.openxmlformats.org/officeDocument/2006/relationships/image
+n=6	http://schemas.openxmlformats.org/officeDocument/2006/relationships/package
+n=6	http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster
+n=6	http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail
+n=4	http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings
+n=4	http://schemas.openxmlformats.org/officeDocument/2006/relationships/tableStyles
+n=2	http://developer.apple.com/namespaces/keynote2
+n=2	http://developer.apple.com/namespaces/ls
+n=2	http://developer.apple.com/namespaces/sl
+n=2	http://schemas.microsoft.com/office/2006/relationships/downRev
+n=2	http://schemas.microsoft.com/office/2006/relationships/shapeXml
+n=2	http://schemas.microsoft.com/office/mac/office/2008/main
+n=2	http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments
+n=2	http://schemas.openxmlformats.org/officeDocument/2006/relationships/presProps
+n=2	http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide
+n=2	http://schemas.openxmlformats.org/officeDocument/2006/relationships/viewProps
+n=2	http://schemas.openxmlformats.org/officeDocument/2006/relationships/vmlDrawing

@@ -1,0 +1,24 @@
+bulk_extractor version: 1.6.0-dev
+Hostname: ubuntu
+Input file: /home/bcadmin/brunnhilde-reports/carved_files
+Output directory: /home/bcadmin/brunnhilde-reports/bulk_extractor
+Disk Size: 30
+Threads: 2
+11:42:12 File /home/bcadmin/brunnhilde-reports/carved_files/ppt_within_doc.doc (13.33%) Done in  0:00:01 at 11:42:13
+11:42:12 File /home/bcadmin/brunnhilde-reports/carved_files/._.Trashes (30.00%) Done in  0:00:01 at 11:42:13
+11:42:12 File /home/bcadmin/brunnhilde-reports/carved_files/document2.rtf (46.67%) Done in  0:00:00 at 11:42:12
+11:42:12 File /home/bcadmin/brunnhilde-reports/carved_files/document1.txt (63.33%) Done in  0:00:00 at 11:42:12
+11:42:13 File /home/bcadmin/brunnhilde-reports/carved_files/document3.pdf (80.00%) Done in  0:00:00 at 11:42:13
+11:42:13 File /home/bcadmin/brunnhilde-reports/carved_files/workbook2.xlsx (96.67%) Done in  0:00:00 at 11:42:13
+All data are read; waiting for threads to finish...
+Time elapsed waiting for 2 threads to finish:
+     (timeout in 60 min.)
+All Threads Finished!
+Producer time spent waiting: 0.773842 sec.
+Average consumer time spent waiting: 0.00332 sec.
+Phase 2. Shutting down scanners
+Phase 3. Creating Histograms
+Elapsed time: 1.52166 sec.
+Total MB processed: 0
+Overall performance: 0.508783 MBytes/sec (0.254391 MBytes/sec/thread)
+Total email features found: 147

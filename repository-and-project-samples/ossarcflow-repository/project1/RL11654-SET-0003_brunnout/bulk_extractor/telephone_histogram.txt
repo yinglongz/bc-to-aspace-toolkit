@@ -1,0 +1,6 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0-dev ($Rev: 10844 $)
+# Feature-Recorder: telephone
+# Filename: /home/bcadmin/brunnhilde-reports/carved_files
+# Histogram-File-Version: 1.1
+n=2	4218041223

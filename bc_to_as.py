@@ -347,9 +347,10 @@ for repository_folder in get_dir_names(dir_path):
             file_name = file.split("_")[0]
             # Find the path of each file
             file_path = file_folder_path + '/' + file
+            file_csv_report_path = file_folder_path + '/csv_reports/' + file
 
             # load datasets
-            formats = load_dataset('formats', file_path)
+            formats = load_dataset('formats', file_csv_report_path)
             siegfried = load_dataset('siegfried', file_path)
             # extract date
             end_date = extract_date(max(siegfried['modified']))

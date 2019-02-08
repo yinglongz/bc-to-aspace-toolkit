@@ -1,0 +1,1108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML'
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+  version='1.0'>
+  <metadata>
+    <dc:type>Disk Image</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>fiwalk</program>
+    <version>4.6.4</version>
+    <build_environment>
+      <compiler>GCC 7.3</compiler>
+      <library name="afflib" version="3.7.17"/>
+      <library name="libewf" version="20140608"/>
+    </build_environment>
+    <execution_environment>
+      <command_line>fiwalk -X /home/bcadmin/brunnhilde-reports/dfxml.xml /home/bcadmin/nps-2010-emails.E01</command_line>
+      <start_time>2019-02-08T16:41:48Z</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>/home/bcadmin/nps-2010-emails.E01</image_filename>
+  </source>
+<!-- fs start: 512 -->
+  <volume offset='512'>
+    <partition_offset>512</partition_offset>
+    <sector_size>512</sector_size>
+    <block_size>1024</block_size>
+    <ftype>4</ftype>
+    <ftype_str>fat16</ftype_str>
+    <block_count>20479</block_count>
+    <first_block>0</first_block>
+    <last_block>20478</last_block>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>TESTDISK    (Volume Label Entry)</filename>
+      <partition>1</partition>
+      <id>1</id>
+      <name_type>r</name_type>
+      <filesize>0</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>3</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>._.Trashes</filename>
+      <partition>1</partition>
+      <id>2</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>5</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:50</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='58880' img_offset='59392' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>a3944ee8c4f5b536981daf39a4b1d424</hashdigest>
+      <hashdigest type='sha1'>cf871dbffe701af4a03fd292dfa26bc690944c70</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>testfile.doc</filename>
+      <partition>1</partition>
+      <id>3</id>
+      <name_type>r</name_type>
+      <filesize>26112</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>6</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='102912' img_offset='103424' len='26112'/>
+      </byte_runs>
+      <hashdigest type='md5'>f2a04d798454899731095add1f01c3dd</hashdigest>
+      <hashdigest type='sha1'>2ab418f17ff1b7a4c0f22e6068ab5b63276f7e2a</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>.Trashes</filename>
+      <partition>1</partition>
+      <id>4</id>
+      <name_type>d</name_type>
+      <filesize>1024</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>8</inode>
+      <meta_type>2</meta_type>
+      <mode>365</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:50</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='57856' img_offset='58368' len='1024'/>
+      </byte_runs>
+      <hashdigest type='md5'>54d955d02ffdd0e22102e205ef519f9a</hashdigest>
+      <hashdigest type='sha1'>d72aaf3f10e2bde14e5bee506c144e687aa929c1</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>8</inode>
+      </parent_object>
+      <filename>.Trashes/.</filename>
+      <partition>1</partition>
+      <id>5</id>
+      <name_type>d</name_type>
+      <filesize>1024</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>8</inode>
+      <meta_type>2</meta_type>
+      <mode>365</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:50</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='57856' img_offset='58368' len='1024'/>
+      </byte_runs>
+      <hashdigest type='md5'>54d955d02ffdd0e22102e205ef519f9a</hashdigest>
+      <hashdigest type='sha1'>d72aaf3f10e2bde14e5bee506c144e687aa929c1</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>8</inode>
+      </parent_object>
+      <filename>.Trashes/..</filename>
+      <partition>1</partition>
+      <id>6</id>
+      <name_type>d</name_type>
+      <filesize>16384</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='41472' img_offset='41984' len='16384'/>
+      </byte_runs>
+      <hashdigest type='md5'>24afc3a034324cfaaec904c402b8d733</hashdigest>
+      <hashdigest type='sha1'>03f078d35bbeff3cc87e1fe55169f6a6f55e4801</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>8</inode>
+      </parent_object>
+      <filename>.Trashes/_01</filename>
+      <partition>1</partition>
+      <id>7</id>
+      <name_type>d</name_type>
+      <filesize>0</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>517</inode>
+      <meta_type>2</meta_type>
+      <mode>511</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:50</crtime>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>8</inode>
+      </parent_object>
+      <filename>.Trashes/._501</filename>
+      <partition>1</partition>
+      <id>8</id>
+      <name_type>r</name_type>
+      <filesize>4096</filesize>
+      <unalloc>1</unalloc>
+      <used>1</used>
+      <inode>519</inode>
+      <meta_type>1</meta_type>
+      <mode>365</mode>
+      <nlink>0</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:50</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='66048' img_offset='66560' len='4096'/>
+      </byte_runs>
+      <hashdigest type='md5'>5ecad39c470178e1b0ef93e534b60fda</hashdigest>
+      <hashdigest type='sha1'>36dfed64b95c28cf63cce63da3d153cba020a88b</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>.fseventsd</filename>
+      <partition>1</partition>
+      <id>9</id>
+      <name_type>d</name_type>
+      <filesize>1024</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>10</inode>
+      <meta_type>2</meta_type>
+      <mode>365</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:50</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='64000' img_offset='64512' len='1024'/>
+      </byte_runs>
+      <hashdigest type='md5'>0b54a81f8d60e5b1b1c7c88df3613102</hashdigest>
+      <hashdigest type='sha1'>f9e0fa9d4867dd56e09884a577a09aeb184f527b</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/.</filename>
+      <partition>1</partition>
+      <id>10</id>
+      <name_type>d</name_type>
+      <filesize>1024</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>10</inode>
+      <meta_type>2</meta_type>
+      <mode>365</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:50</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='64000' img_offset='64512' len='1024'/>
+      </byte_runs>
+      <hashdigest type='md5'>0b54a81f8d60e5b1b1c7c88df3613102</hashdigest>
+      <hashdigest type='sha1'>f9e0fa9d4867dd56e09884a577a09aeb184f527b</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/..</filename>
+      <partition>1</partition>
+      <id>11</id>
+      <name_type>d</name_type>
+      <filesize>16384</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>2</inode>
+      <meta_type>2</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='41472' img_offset='41984' len='16384'/>
+      </byte_runs>
+      <hashdigest type='md5'>24afc3a034324cfaaec904c402b8d733</hashdigest>
+      <hashdigest type='sha1'>03f078d35bbeff3cc87e1fe55169f6a6f55e4801</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/fseventsd-uuid</filename>
+      <partition>1</partition>
+      <id>12</id>
+      <name_type>r</name_type>
+      <filesize>36</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>711</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:50</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='65024' img_offset='65536' len='36'/>
+      </byte_runs>
+      <hashdigest type='md5'>78bdfe6028c44505dbee9a250b5dc782</hashdigest>
+      <hashdigest type='sha1'>b6098ddea9ad17a3605e1d13603e5b3197f4d325</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>10</inode>
+      </parent_object>
+      <filename>.fseventsd/636573a9bdc4f9e3</filename>
+      <partition>1</partition>
+      <id>13</id>
+      <name_type>r</name_type>
+      <filesize>179</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>714</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='62976' img_offset='63488' len='179'/>
+      </byte_runs>
+      <hashdigest type='md5'>69fbec1131c3e1d7335c58dab289054a</hashdigest>
+      <hashdigest type='sha1'>4aae6c9839f9be8aeaa51724cdd9fd8ad8296ef3</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>document1.pdf</filename>
+      <partition>1</partition>
+      <id>14</id>
+      <name_type>r</name_type>
+      <filesize>9485</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>12</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='70144' img_offset='70656' len='9485'/>
+      </byte_runs>
+      <hashdigest type='md5'>b4a38c4189033656f029215b49f5b878</hashdigest>
+      <hashdigest type='sha1'>a597f457302048a13cea265d9fd70ef63fd5900e</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>document1.txt</filename>
+      <partition>1</partition>
+      <id>15</id>
+      <name_type>r</name_type>
+      <filesize>24</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>14</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='80384' img_offset='80896' len='24'/>
+      </byte_runs>
+      <hashdigest type='md5'>9bcbe494cdd7e440094b8de82d771b83</hashdigest>
+      <hashdigest type='sha1'>8cb3db71e710d34aeacbd5ec3086c4921e936dc5</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>document2.pdf</filename>
+      <partition>1</partition>
+      <id>16</id>
+      <name_type>r</name_type>
+      <filesize>8672</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>16</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='81408' img_offset='81920' len='8672'/>
+      </byte_runs>
+      <hashdigest type='md5'>f8bbfd914018d26513ebac3fd94bbeb3</hashdigest>
+      <hashdigest type='sha1'>2a45af3026fc4b120fce8d21e1b9e11d988a45e1</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>document2.rtf</filename>
+      <partition>1</partition>
+      <id>17</id>
+      <name_type>r</name_type>
+      <filesize>335</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>18</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='90624' img_offset='91136' len='335'/>
+      </byte_runs>
+      <hashdigest type='md5'>126009a1b61a74293c57148998b4ef3e</hashdigest>
+      <hashdigest type='sha1'>0b452ea1889f17fbb15b70dc4591f88c3b2e14c6</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>document3.pdf</filename>
+      <partition>1</partition>
+      <id>18</id>
+      <name_type>r</name_type>
+      <filesize>10091</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>20</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='91648' img_offset='92160' len='10091'/>
+      </byte_runs>
+      <hashdigest type='md5'>4c783e2d5973a6683cb5c93fcae7e76b</hashdigest>
+      <hashdigest type='sha1'>de317ef91da5eeb4c4116dd6fe72dd5690631f15</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>document3.txt</filename>
+      <partition>1</partition>
+      <id>19</id>
+      <name_type>r</name_type>
+      <filesize>52</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>22</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='101888' img_offset='102400' len='52'/>
+      </byte_runs>
+      <hashdigest type='md5'>156910852b0240e3d8b1e8eb4312d0a6</hashdigest>
+      <hashdigest type='sha1'>c5e44cfe71f3112e970a7cb900d180eb0d3c80a8</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>testfile_pdf.pdf</filename>
+      <partition>1</partition>
+      <id>20</id>
+      <name_type>r</name_type>
+      <filesize>22587</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>25</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='129536' img_offset='130048' len='22587'/>
+      </byte_runs>
+      <hashdigest type='md5'>9351e9220b5dd959036e82d64c55100a</hashdigest>
+      <hashdigest type='sha1'>e6f166b79878545554002d28e9f64355a5a1ae64</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>testfilex.docx</filename>
+      <partition>1</partition>
+      <id>21</id>
+      <name_type>r</name_type>
+      <filesize>27254</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>28</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='153088' img_offset='153600' len='27254'/>
+      </byte_runs>
+      <hashdigest type='md5'>28d77be385b0aff76dd3715164a39c30</hashdigest>
+      <hashdigest type='sha1'>a212e6a45e22fbaea1e34e8f585540040f68c5b1</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>testfilex.pdf</filename>
+      <partition>1</partition>
+      <id>22</id>
+      <name_type>r</name_type>
+      <filesize>23464</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>30</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='180736' img_offset='181248' len='23464'/>
+      </byte_runs>
+      <hashdigest type='md5'>772e0d32f3a33a363875005800c4d9b2</hashdigest>
+      <hashdigest type='sha1'>6b6aa82b90d429ecd38c1a7e4259f2083477dec7</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>workbook1.xls</filename>
+      <partition>1</partition>
+      <id>23</id>
+      <name_type>r</name_type>
+      <filesize>19968</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>32</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='204288' img_offset='204800' len='19968'/>
+      </byte_runs>
+      <hashdigest type='md5'>606c41b9b739ea91da394940550e0287</hashdigest>
+      <hashdigest type='sha1'>4398d71dd0a8a37b9faea382df78022deb5c7118</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>workbook2.xlsx</filename>
+      <partition>1</partition>
+      <id>24</id>
+      <name_type>r</name_type>
+      <filesize>42595</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>35</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='224768' img_offset='225280' len='42595'/>
+      </byte_runs>
+      <hashdigest type='md5'>00ec0c4f5354b2a854c05379c0b14b1b</hashdigest>
+      <hashdigest type='sha1'>fefb50863e6a15fea15785916041ce638fde2716</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>iwork_09.pages</filename>
+      <partition>1</partition>
+      <id>25</id>
+      <name_type>r</name_type>
+      <filesize>39367</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>38</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='267776' img_offset='268288' len='39367'/>
+      </byte_runs>
+      <hashdigest type='md5'>00360eca090db4376846ba682c3cf9fa</hashdigest>
+      <hashdigest type='sha1'>b05d19d4049f410d97ea414914c739a98cd0a095</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>keynote_09.key</filename>
+      <partition>1</partition>
+      <id>26</id>
+      <name_type>r</name_type>
+      <filesize>228590</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>41</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='307712' img_offset='308224' len='228590'/>
+      </byte_runs>
+      <hashdigest type='md5'>6d6734bce0677563917c10c2a1dff63b</hashdigest>
+      <hashdigest type='sha1'>180d3776d483b170ae66d482c62aabfa93d851ef</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>numbers_09.numbers</filename>
+      <partition>1</partition>
+      <id>27</id>
+      <name_type>r</name_type>
+      <filesize>85880</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>44</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='537088' img_offset='537600' len='85880'/>
+      </byte_runs>
+      <hashdigest type='md5'>5fdede367a4a37fec09c015725a611f4</hashdigest>
+      <hashdigest type='sha1'>a0a7c679dde3c2388eca16077aa63856c4ac60c6</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>doc_within_doc.doc</filename>
+      <partition>1</partition>
+      <id>28</id>
+      <name_type>r</name_type>
+      <filesize>38912</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>47</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='623104' img_offset='623616' len='38912'/>
+      </byte_runs>
+      <hashdigest type='md5'>e59943bb974f79ee07c73591e6b8896e</hashdigest>
+      <hashdigest type='sha1'>bd8deee1ed6bdfa47b67d39d6b156249cfcd66ce</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>docx_within_docx.docx</filename>
+      <partition>1</partition>
+      <id>29</id>
+      <name_type>r</name_type>
+      <filesize>19105</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>50</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='662016' img_offset='662528' len='19105'/>
+      </byte_runs>
+      <hashdigest type='md5'>2ad4b9e5c9a5dbad35f2a1507c94363c</hashdigest>
+      <hashdigest type='sha1'>4031589c28d5203e1cee65a7aa5df01552ea5fdf</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>ppt_within_doc.doc</filename>
+      <partition>1</partition>
+      <id>30</id>
+      <name_type>r</name_type>
+      <filesize>69120</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>53</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='681472' img_offset='681984' len='69120'/>
+      </byte_runs>
+      <hashdigest type='md5'>0ac8e899b186bdb0680b00183fc6ca75</hashdigest>
+      <hashdigest type='sha1'>36c6f92fa7ca0697d75fc4c7b5cf22e5936e8c6f</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>pptx_within_docx.docx</filename>
+      <partition>1</partition>
+      <id>31</id>
+      <name_type>r</name_type>
+      <filesize>39027</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>56</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='751104' img_offset='751616' len='39027'/>
+      </byte_runs>
+      <hashdigest type='md5'>ffbbbed65c2c2c6d6e934050aafd8dc4</hashdigest>
+      <hashdigest type='sha1'>df36660005f82ebdf7b6ea3b4bf9d34a5a2c821a</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>xls_within_doc.doc</filename>
+      <partition>1</partition>
+      <id>32</id>
+      <name_type>r</name_type>
+      <filesize>36352</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>59</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='791040' img_offset='791552' len='36352'/>
+      </byte_runs>
+      <hashdigest type='md5'>cb42c11d5d0fda2cd09d5dbb2a065990</hashdigest>
+      <hashdigest type='sha1'>30f1a31a4c4907f6a04e1ac46847383d931e5ba2</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>xlsx_within_docx.docx</filename>
+      <partition>1</partition>
+      <id>33</id>
+      <name_type>r</name_type>
+      <filesize>17528</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>62</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='827904' img_offset='828416' len='17528'/>
+      </byte_runs>
+      <hashdigest type='md5'>1ffd4fdaa77aac9e013813d461cad826</hashdigest>
+      <hashdigest type='sha1'>c53f7787a56e20fc8c41b75797cabe0537739976</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>myfile.zip</filename>
+      <partition>1</partition>
+      <id>34</id>
+      <name_type>r</name_type>
+      <filesize>225</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>63</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='846336' img_offset='846848' len='225'/>
+      </byte_runs>
+      <hashdigest type='md5'>d51e8b2628f99758a8168da18be9bd38</hashdigest>
+      <hashdigest type='sha1'>cb16138def26caeb1ff62122a4945b4bd2f9b3f6</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>myfile22.zip</filename>
+      <partition>1</partition>
+      <id>35</id>
+      <name_type>r</name_type>
+      <filesize>372</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>64</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='847360' img_offset='847872' len='372'/>
+      </byte_runs>
+      <hashdigest type='md5'>ca81773c3449f55ce8dac67b968c4013</hashdigest>
+      <hashdigest type='sha1'>26f3ee917e5c7888e62c476a4e122b9696b900c7</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>myfilegzip.txt.gz</filename>
+      <partition>1</partition>
+      <id>36</id>
+      <name_type>r</name_type>
+      <filesize>59</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>67</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='848384' img_offset='848896' len='59'/>
+      </byte_runs>
+      <hashdigest type='md5'>0c2b55d7693290a02f5844ebfbe47054</hashdigest>
+      <hashdigest type='sha1'>58b3a2741cef5f780008e87f62b1564b8a5bc3dd</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>myfilegzip2.txt.gz.0.gz</filename>
+      <partition>1</partition>
+      <id>37</id>
+      <name_type>r</name_type>
+      <filesize>104</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>70</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='849408' img_offset='849920' len='104'/>
+      </byte_runs>
+      <hashdigest type='md5'>a36d9fe4e216896f5a34a6faca7fe3b9</hashdigest>
+      <hashdigest type='sha1'>67b6b9eba3805c435f21a883558f1a490abefcd6</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>Makefile</filename>
+      <partition>1</partition>
+      <id>38</id>
+      <name_type>r</name_type>
+      <filesize>509</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>72</inode>
+      <meta_type>1</meta_type>
+      <mode>511</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <mtime prec="2">2011-02-02T20:09:50</mtime>
+      <atime prec="86400">2011-02-02T05:00:00</atime>
+      <crtime prec="2">2011-02-02T20:09:51</crtime>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='850432' img_offset='850944' len='509'/>
+      </byte_runs>
+      <hashdigest type='md5'>072f92d5944faabc0f63bc8a19f42608</hashdigest>
+      <hashdigest type='sha1'>4f4d4d6322f902723b2d32b4117b32036d733b98</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>$MBR</filename>
+      <partition>1</partition>
+      <id>39</id>
+      <name_type>v</name_type>
+      <filesize>512</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>326371</inode>
+      <meta_type>10</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='0' img_offset='512' len='512'/>
+      </byte_runs>
+      <hashdigest type='md5'>85a31086f33c4701e9f9e50f77bd02ab</hashdigest>
+      <hashdigest type='sha1'>463c66d54467decf4a3f9b3f8eb9854657eb7e44</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>$FAT1</filename>
+      <partition>1</partition>
+      <id>40</id>
+      <name_type>v</name_type>
+      <filesize>20480</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>326372</inode>
+      <meta_type>10</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='512' img_offset='1024' len='20480'/>
+      </byte_runs>
+      <hashdigest type='md5'>bd363f01f5cead34db1e3667dc3e1686</hashdigest>
+      <hashdigest type='sha1'>2dd4dee62b399b75a3d28f5451559f912733804a</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>$FAT2</filename>
+      <partition>1</partition>
+      <id>41</id>
+      <name_type>v</name_type>
+      <filesize>20480</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>326373</inode>
+      <meta_type>10</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+      <byte_runs>
+       <byte_run file_offset='0' fs_offset='20992' img_offset='21504' len='20480'/>
+      </byte_runs>
+      <hashdigest type='md5'>bd363f01f5cead34db1e3667dc3e1686</hashdigest>
+      <hashdigest type='sha1'>2dd4dee62b399b75a3d28f5451559f912733804a</hashdigest>
+    </fileobject>
+    <fileobject>
+      <parent_object>
+        <inode>2</inode>
+      </parent_object>
+      <filename>$OrphanFiles</filename>
+      <partition>1</partition>
+      <id>42</id>
+      <name_type>V</name_type>
+      <filesize>0</filesize>
+      <alloc>1</alloc>
+      <used>1</used>
+      <inode>326374</inode>
+      <meta_type>11</meta_type>
+      <mode>0</mode>
+      <nlink>1</nlink>
+      <uid>0</uid>
+      <gid>0</gid>
+    </fileobject>
+  </volume>
+<!-- end of volume -->
+<!-- clock: 0.070782 -->
+  <rusage>
+    <utime>0.067728</utime>
+    <stime>0.011288</stime>
+    <maxrss>16828</maxrss>
+    <minflt>1256</minflt>
+    <majflt>3</majflt>
+    <nswap>0</nswap>
+    <inblock>896</inblock>
+    <oublock>72</oublock>
+    <clocktime>0.070782</clocktime>
+<!-- stop_time: Fri Feb  8 11:41:49 2019 -->
+  </rusage>
+</dfxml>

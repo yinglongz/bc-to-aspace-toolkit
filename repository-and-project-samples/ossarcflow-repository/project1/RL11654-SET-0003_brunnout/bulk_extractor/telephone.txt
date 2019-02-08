@@ -1,0 +1,7 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0-dev ($Rev: 10844 $)
+# Feature-Recorder: telephone
+# Filename: /home/bcadmin/brunnhilde-reports/carved_files
+# Feature-File-Version: 1.1
+/home/bcadmin/brunnhilde-reports/carved_files/document1.pdf􀀜-7885	421 804 1223	FontBBox [-610 -421 804 1223] /FontName /BNK
+/home/bcadmin/brunnhilde-reports/carved_files/document3.pdf􀀜-8485	421 804 1223	FontBBox [-610 -421 804 1223] /FontName /XNV

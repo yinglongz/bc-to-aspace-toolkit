@@ -1,0 +1,94 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0-dev ($Rev: 10844 $)
+# Feature-Recorder: hex
+# Filename: /home/bcadmin/brunnhilde-reports/carved_files
+# Feature-File-Version: 1.1
+/home/bcadmin/brunnhilde-reports/carved_files/document2.pdf􀀜-8577	934e3ba7ddac5dd42f3d0e8613de8b4b	fo 1 0 R /ID [ <934e3ba7ddac5dd42f3d0e8613de8b4b>\x0A<934e3ba7ddac5
+/home/bcadmin/brunnhilde-reports/carved_files/document2.pdf􀀜-8612	934e3ba7ddac5dd42f3d0e8613de8b4b	d0e8613de8b4b>\x0A<934e3ba7ddac5dd42f3d0e8613de8b4b> ] >>\x0Astartxref
+/home/bcadmin/brunnhilde-reports/carved_files/testfile_pdf.pdf􀀜-22491	1d0dc984ee241751374f9f2867643eca	fo 1 0 R /ID [ <1d0dc984ee241751374f9f2867643eca>\x0A<1d0dc984ee241
+/home/bcadmin/brunnhilde-reports/carved_files/testfile_pdf.pdf􀀜-22526	1d0dc984ee241751374f9f2867643eca	f9f2867643eca>\x0A<1d0dc984ee241751374f9f2867643eca> ] >>\x0Astartxref
+/home/bcadmin/brunnhilde-reports/carved_files/ppt_within_doc.doc􀀜-22964-ZIP-166	85BDC9FD1C3A	-7EE6-4342-B048-85BDC9FD1C3A}"/>
+/home/bcadmin/brunnhilde-reports/carved_files/ppt_within_doc.doc􀀜-27310-ZIP-1621	CDB65399AA68	-835A-468F-94EA-CDB65399AA68}" type="hfDateT
+/home/bcadmin/brunnhilde-reports/carved_files/ppt_within_doc.doc􀀜-31947-ZIP-1637	5FABEFD2F9EB	-ECCA-4A58-8769-5FABEFD2F9EB}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/iwork_09.pages􀀜-16083	193bed0299c2d45a794a728ca8250176	fo 1 0 R /ID [ <193bed0299c2d45a794a728ca8250176>\x0A<193bed0299c2d
+/home/bcadmin/brunnhilde-reports/carved_files/iwork_09.pages􀀜-16118	193bed0299c2d45a794a728ca8250176	a728ca8250176>\x0A<193bed0299c2d45a794a728ca8250176> ] >>\x0Astartxref
+/home/bcadmin/brunnhilde-reports/carved_files/.fseventsd/fseventsd-uuid􀀜-24	367E2A3B3A2A	-336B-4962-956F-367E2A3B3A2A
+/home/bcadmin/brunnhilde-reports/carved_files/testfilex.pdf􀀜-23368	faf901eb28d10d3b906341bd2e22c27b	fo 1 0 R /ID [ <faf901eb28d10d3b906341bd2e22c27b>\x0A<faf901eb28d10
+/home/bcadmin/brunnhilde-reports/carved_files/testfilex.pdf􀀜-23403	faf901eb28d10d3b906341bd2e22c27b	341bd2e22c27b>\x0A<faf901eb28d10d3b906341bd2e22c27b> ] >>\x0Astartxref
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-7025-ZIP-2144	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-7025-ZIP-2848	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-8033-ZIP-1920	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-8033-ZIP-2624	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-8964-ZIP-3340	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-8964-ZIP-4044	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-10187-ZIP-1865	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-10187-ZIP-2569	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-11094-ZIP-3256	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-11094-ZIP-3960	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-12237-ZIP-2775	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-12237-ZIP-4249	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-14248-ZIP-3611	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-14248-ZIP-4315	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-15354-ZIP-6122	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-15354-ZIP-6826	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-16809-ZIP-1132	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-16809-ZIP-1836	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-17600-ZIP-794	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-17600-ZIP-1498	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-18343-ZIP-3701	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-18343-ZIP-4405	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-19668-ZIP-3556	6A9ABCCC4912	-188F-4D63-8C3D-6A9ABCCC4912}" type="datetim
+/home/bcadmin/brunnhilde-reports/carved_files/pptx_within_docx.docx􀀜-5129-ZIP-19668-ZIP-4260	A6DEFA104008	-3129-4618-966C-A6DEFA104008}" type="slidenu
+/home/bcadmin/brunnhilde-reports/carved_files/document1.pdf􀀜-9390	c9dac639d3ad36ed1c957c2f9077dfd4	fo 1 0 R /ID [ <c9dac639d3ad36ed1c957c2f9077dfd4>\x0A<c9dac639d3ad3
+/home/bcadmin/brunnhilde-reports/carved_files/document1.pdf􀀜-9425	c9dac639d3ad36ed1c957c2f9077dfd4	57c2f9077dfd4>\x0A<c9dac639d3ad36ed1c957c2f9077dfd4> ] >>\x0Astartxref
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-310	047FD34A0AD1AF2B00CB9B2100000000	l-0" ls:active="047FD34A0AD1AF2B00CB9B2100000000" ls:window="300
+/home/bcadmin/brunnhilde-reports/carved_files/workbook1.xls􀀜-8030	333333333333	\x09\x09\x09\x09\x09<real>3058.3333333333335</real>\x0A\x09\x09\x09\x09\x09\x09<
+/home/bcadmin/brunnhilde-reports/carved_files/workbook1.xls􀀜-8560	000000000000	\x09\x09\x09\x09\x09<real>3225.0000000000005</real>\x0A\x09\x09\x09\x09\x09\x09<
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-188937	760009765625	="1" sfa:y="481.760009765625" sfa:w="396" sf
+/home/bcadmin/brunnhilde-reports/carved_files/document3.pdf􀀜-9996	3d3588cf56acb3491e46a99cd823338a	fo 1 0 R /ID [ <3d3588cf56acb3491e46a99cd823338a>\x0A<3d3588cf56acb
+/home/bcadmin/brunnhilde-reports/carved_files/document3.pdf􀀜-10031	3d3588cf56acb3491e46a99cd823338a	6a99cd823338a>\x0A<3d3588cf56acb3491e46a99cd823338a> ] >>\x0Astartxref
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-415338	465209960937	Size sfa:w="436.4652099609375" sfa:h="286"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-415386	465209960937	size sfa:w="436.4652099609375" sfa:h="286"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-510237	465209960937	Size sfa:w="436.4652099609375" sfa:h="286"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-510285	465209960937	size sfa:w="436.4652099609375" sfa:h="286"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-510337	615356445312	tion sfa:x="974.6153564453125" sfa:y="337"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-545080	465209960937	Size sfa:w="436.4652099609375" sfa:h="286"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-545128	465209960937	size sfa:w="436.4652099609375" sfa:h="286"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-545180	150146484375	tion sfa:x="488.150146484375" sfa:y="336.5"/
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-567247	465209960937	Size sfa:w="436.4652099609375" sfa:h="286"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-567295	465209960937	size sfa:w="436.4652099609375" sfa:h="286"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-567347	965209960937	tion sfa:x="487.9652099609375" sfa:y="671.5"
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-614694	965209960937	Size sfa:w="435.9652099609375" sfa:h="285"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-614742	965209960937	size sfa:w="435.9652099609375" sfa:h="285"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-630582	965209960937	Size sfa:w="435.9652099609375" sfa:h="285"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-630630	965209960937	size sfa:w="435.9652099609375" sfa:h="285"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-630682	430419921875	tion sfa:x="974.430419921875" sfa:y="671"/><
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-650008	965209960937	Size sfa:w="435.9652099609375" sfa:h="285"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-650056	965209960937	size sfa:w="435.9652099609375" sfa:h="285"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-650108	400146484375	tion sfa:x="487.400146484375" sfa:y="0"/></s
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-659744	965209960937	Size sfa:w="435.9652099609375" sfa:h="285"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-659792	965209960937	size sfa:w="435.9652099609375" sfa:h="285"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-659844	365356445312	tion sfa:x="974.3653564453125" sfa:y="0.5"/>
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-732591	23080852B5904B7380BE7D5C71D62DE0	Table 1" sf:id="23080852B5904B7380BE7D5C71D62DE0" sf:num-header-
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-742326	047FD34A0AD1AF2B00CB9B2100000000	obal-id-string="047FD34A0AD1AF2B00CB9B2100000000"/><ls:hidden-st
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-792206	93CB638A0B9224190023EECE00000000	d Table" sf:id="93CB638A0B9224190023EECE00000000" sf:num-header-
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-845127	93CB638E0B92241B0023EECE00000000	d Table" sf:id="93CB638E0B92241B0023EECE00000000" sf:num-header-
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-897583	9C29EDBE0BA891C6002AAECF00000000	d Table" sf:id="9C29EDBE0BA891C6002AAECF00000000" sf:num-header-
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-899777	9C29EDBE0BA891C6002AAECF00000000	=SUM(A)" sf:ht="9C29EDBE0BA891C6002AAECF00000000" sf:hc="2560"><
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-900699	9C29EDBE0BA891C6002AAECF00000000	=SUM(B)" sf:ht="9C29EDBE0BA891C6002AAECF00000000" sf:hc="2561"><
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-901282	9C29EDBE0BA891C6002AAECF00000000	=SUM(C)" sf:ht="9C29EDBE0BA891C6002AAECF00000000" sf:hc="2562"><
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-901866	9C29EDBE0BA891C6002AAECF00000000	=SUM(D)" sf:ht="9C29EDBE0BA891C6002AAECF00000000" sf:hc="2563"><
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-903993	9C29EDBE0BA891C6002AAECF00000000	obal-id-string="9C29EDBE0BA891C6002AAECF00000000" sfa:class="glo
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-906029	9C29EDBE0BA891C6002AAECF00000000	obal-id-string="9C29EDBE0BA891C6002AAECF00000000" sfa:class="glo
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-908065	9C29EDBE0BA891C6002AAECF00000000	obal-id-string="9C29EDBE0BA891C6002AAECF00000000" sfa:class="glo
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-910101	9C29EDBE0BA891C6002AAECF00000000	obal-id-string="9C29EDBE0BA891C6002AAECF00000000" sfa:class="glo
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-960758	93CB63960B9224220023EECE00000000	d Table" sf:id="93CB63960B9224220023EECE00000000" sf:num-header-
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-1013548	93CB639A0B9224250023EECE00000000	d Table" sf:id="93CB639A0B9224250023EECE00000000" sf:num-header-
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-1014530	119995117187	n sf:width="321.1199951171875" sf:preferred-
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-1014569	119995117187	rred-width="321.1199951171875" sf:fitting-wi
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-1067783	93CB639E0B9224280023EECE00000000	d Table" sf:id="93CB639E0B9224280023EECE00000000" sf:num-header-
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-1068846	119995117187	mn sf:width="69.1199951171875" sf:preferred-
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-1068884	119995117187	erred-width="69.1199951171875" sf:fitting-wi
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-16481-ZIP-1076603	E40A01EC1080428F83C787D809CB0262	ing sfa:string="E40A01EC1080428F83C787D809CB0262"/></ls:LSDocume
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-148312-ZIP-564	9B68008B2C68	-B891-452E-BDE3-9B68008B2C68" key:decimal-ta
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-148312-ZIP-1258318	869018554687	29443359375 142.8690185546875 4.228570938110

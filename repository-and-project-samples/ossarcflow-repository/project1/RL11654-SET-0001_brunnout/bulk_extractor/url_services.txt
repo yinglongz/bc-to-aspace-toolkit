@@ -1,0 +1,11 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0-dev ($Rev: 10844 $)
+# Feature-Recorder: url
+# Filename: /home/bcadmin/brunnhilde-reports/carved_files
+# Histogram-File-Version: 1.1
+n=724	schemas.openxmlformats.org
+n=48	purl.org
+n=24	schemas.microsoft.com
+n=22	www.w3.org
+n=18	developer.apple.com
+n=8	www.apple.com

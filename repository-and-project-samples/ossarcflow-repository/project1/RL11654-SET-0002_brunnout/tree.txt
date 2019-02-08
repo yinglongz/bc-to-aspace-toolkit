@@ -1,0 +1,29 @@
+/home/bcadmin/brunnhilde-reports/carved_files
+├── [9.3K Feb  8 11:41]  document1.pdf
+├── [  24 Feb  8 11:41]  document1.txt
+├── [8.5K Feb  8 11:41]  document2.pdf
+├── [ 335 Feb  8 11:41]  document2.rtf
+├── [9.9K Feb  8 11:41]  document3.pdf
+├── [  52 Feb  8 11:41]  document3.txt
+├── [ 38K Feb  8 11:41]  doc_within_doc.doc
+├── [ 19K Feb  8 11:41]  docx_within_docx.docx
+├── [ 38K Feb  8 11:41]  iwork_09.pages
+├── [223K Feb  8 11:41]  keynote_09.key
+├── [ 509 Feb  8 11:41]  Makefile
+├── [ 372 Feb  8 11:41]  myfile22.zip
+├── [ 104 Feb  8 11:41]  myfilegzip2.txt.gz.0.gz
+├── [  59 Feb  8 11:41]  myfilegzip.txt.gz
+├── [ 225 Feb  8 11:41]  myfile.zip
+├── [ 84K Feb  8 11:41]  numbers_09.numbers
+├── [ 68K Feb  8 11:41]  ppt_within_doc.doc
+├── [ 38K Feb  8 11:41]  pptx_within_docx.docx
+├── [ 26K Feb  8 11:41]  testfile.doc
+├── [ 22K Feb  8 11:41]  testfile_pdf.pdf
+├── [ 27K Feb  8 11:41]  testfilex.docx
+├── [ 23K Feb  8 11:41]  testfilex.pdf
+├── [ 20K Feb  8 11:41]  workbook1.xls
+├── [ 42K Feb  8 11:41]  workbook2.xlsx
+├── [ 36K Feb  8 11:41]  xls_within_doc.doc
+└── [ 17K Feb  8 11:41]  xlsx_within_docx.docx
+
+0 directories, 26 files

@@ -1,0 +1,39 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0-dev ($Rev: 10844 $)
+# Feature-Recorder: email
+# Filename: /home/bcadmin/brunnhilde-reports/carved_files
+# Histogram-File-Version: 1.1
+n=18	ppt_within_doc@document.com	(utf16=14)
+n=12	docx_within_docx@document.com	(utf16=4)
+n=12	xls_within_doc@document.com	(utf16=10)
+n=10	user_doc@microsoftword.com	(utf16=6)
+n=8	pptx_within_docx@document.com	(utf16=2)
+n=8	xls_cell@microsoft_excel.com	(utf16=6)
+n=6	pages@iwork09.com
+n=6	user_docx@microsoftword.com
+n=5	xlsx_within_docx@document.com	(utf16=1)
+n=4	keynote@iwork09.com
+n=4	keynote_comment@iwork09.com
+n=4	numbers_comment@iwork09.com
+n=4	pages_comment@iwork09.com
+n=4	xlsx_cell@microsoft_excel.com
+n=4	xlsx_comment@microsoft_excel.com
+n=2	doc_within_doc@document.com
+n=2	email_in_gzip@gzipfile.com
+n=2	email_in_gzip_gzip@gzipfile.com
+n=2	email_in_zip@zipfile1.com
+n=2	email_in_zip_zip@zipfile2.com
+n=2	iwork09.comkeynote_comment@iwork09.com
+n=2	iwork09.comnumbers@iwork09.com
+n=2	iwork09.compages@iwork09.com
+n=2	numbers@iwork09.com
+n=2	numbers_09@apple.com
+n=2	plain_text@textedit.com
+n=2	plain_text_pdf@textedit.com
+n=2	plain_utf16@textedit.com	(utf16=2)
+n=2	plain_utf16_pdf@textedit.com
+n=2	rtf_text@textedit.com
+n=2	rtf_text_pdf@textedit.com
+n=2	user_doc_pdf@microsoftword.com
+n=2	user_docx_pdf@microsoftword.com
+n=2	xls_comment@microsoft_excel.com

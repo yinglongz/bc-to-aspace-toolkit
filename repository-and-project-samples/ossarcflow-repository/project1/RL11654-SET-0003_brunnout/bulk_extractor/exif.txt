@@ -1,0 +1,25 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0-dev ($Rev: 10844 $)
+# Feature-Recorder: exif
+# Filename: /home/bcadmin/brunnhilde-reports/carved_files
+# Feature-File-Version: 1.1
+/home/bcadmin/brunnhilde-reports/carved_files/numbers_09.numbers􀀜-53	f17bd03be9b579f958518aadb88592c5	<exif><ifd0.exif.PixelXDimension>310</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>240</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/iwork_09.pages􀀜-53	8f22cf75c52860a63b07b8ad5688ffc9	<exif><ifd0.exif.PixelXDimension>395</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>512</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/testfilex.docx􀀜-4989	2f714f1fc1dc166229836935c28b83cb	<exif><ifd0.tiff.XResolution>72/1</ifd0.tiff.XResolution><ifd0.tiff.YResolution>72/1</ifd0.tiff.YResolution><ifd0.tiff.ResolutionUnit>2</ifd0.tiff.ResolutionUnit><ifd0.exif.PixelXDimension>395</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>512</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-46	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-8362	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-16847	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-24834	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-32958	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-41621	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-50291	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-59060	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-67842	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-75754	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-83196	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-91525	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-99930	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-108185	8969d19d81f1f06e34635af33a0f2aef	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-117159	f17bd03be9b579f958518aadb88592c5	<exif><ifd0.exif.PixelXDimension>60</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>45</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/keynote_09.key􀀜-124859	f17bd03be9b579f958518aadb88592c5	<exif><ifd0.exif.PixelXDimension>512</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>384</ifd0.exif.PixelYDimension></exif>
+/home/bcadmin/brunnhilde-reports/carved_files/workbook2.xlsx􀀜-7558	cb6c8ad28d18b84ed40f8af2812a70cf	<exif><ifd0.tiff.XResolution>72/1</ifd0.tiff.XResolution><ifd0.tiff.YResolution>72/1</ifd0.tiff.YResolution><ifd0.tiff.ResolutionUnit>2</ifd0.tiff.ResolutionUnit><ifd0.exif.PixelXDimension>256</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>162</ifd0.exif.PixelYDimension></exif>
