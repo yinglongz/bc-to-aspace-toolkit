@@ -2,15 +2,15 @@
 # coding=UTF-8
 #
 # bc_to_as.py
-# 
-# This code is distributed under the terms of the GNU General Public 
-# License, Version 3. See the text file "COPYING" for further details 
+#
+# This code is distributed under the terms of the GNU General Public
+# License, Version 3. See the text file "COPYING" for further details
 # about the terms of this license.
 #
 # This python script prepares metadata produced by the Brunnhilde tool
 # for import into ArchivesSpace, and uses the ArchivesSpace API to perform
 # the import.
-# 
+#
 
 from pathlib import Path
 import getpass
@@ -272,7 +272,7 @@ for repository_folder in get_dir_names(dir_path):
                 '%Y-%m-%d')
             parent_resource['extents'][0]['number'] = 'Unknown'
             parent_resource['notes'] = []
-            parent_resource['level'] = 'file'
+            parent_resource['level'] = 'files'
             parent_resource['title'] = project_folder
             resource_api = repository_uri + '/resources'
             parent_resource_uri = call_archivesspace_api(
@@ -281,7 +281,7 @@ for repository_folder in get_dir_names(dir_path):
             parent_object = create_json_file(
                 'create_archival_objects', dir_path)
             parent_object['title'] = project_folder
-            parent_object['level'] = 'file'
+            parent_object['level'] = 'files'
             parent_object['ref_id'] = project_folder
             parent_object['resource']['ref'] = parent_resource_uri
             parent_object['dates'] = []
@@ -301,7 +301,7 @@ for repository_folder in get_dir_names(dir_path):
                     '%Y-%m-%d')
                 parent_resource['extents'][0]['number'] = 'Unknown'
                 parent_resource['notes'] = []
-                parent_resource['level'] = 'file'
+                parent_resource['level'] = 'files'
                 parent_resource['title'] = project_folder
                 resource_api = repository_uri + '/resources'
                 parent_resource_uri = call_archivesspace_api(
@@ -319,9 +319,10 @@ for repository_folder in get_dir_names(dir_path):
             file_name = file.split("_")[0]
             # Find the path of each file
             file_path = file_folder_path + '/' + file
+            file_csv_report_path = file_folder_path + '/csv_reports/' + file
 
             # load datasets
-            formats = load_dataset('formats', file_path)
+            formats = load_dataset('formats', file_csv_report_path)
             siegfried = load_dataset('siegfried', file_path)
             # extract date
             end_date = extract_date(max(siegfried['modified']))
